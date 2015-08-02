@@ -1,11 +1,7 @@
 source 'https://rubygems.org'
+ruby '2.2.0'
 
-gem 'thin'
-gem 'sinatra'
-gem 'selenium-webdriver'
-
-group :test do
-  gem 'rspec'
-  gem 'capybara'
-end
+gem 'capybara'
+gem 'rack'
+gem 'rspec'
 
