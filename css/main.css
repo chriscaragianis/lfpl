@@ -1,5 +1,15 @@
+body {
+  -webkit-filter: grayscale(1);
+  font-family: 'Lato', sans-serif;
+}
+
+.navigations {
+  background-color: saddlebrown;
+}
+
 .nav-bar {
   text-align: center;
+  background-color: SteelBlue;
 }
 
 .nav-list {
@@ -9,3 +19,35 @@
 .nav-list li {
   display: inline-block;
 }
+
+.main {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: beige;
+}
+
+.main h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', sans-serif;
+  clear: both;
+}
+
+.page-index {
+  list-style: none;
+}
+
+.page-index li {
+  background-color: HoneyDew;
+}
+
+.page-index li a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+.main p {
+  word-break: normal;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+

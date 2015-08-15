@@ -57,22 +57,3 @@ describe "Header displays correctly on all pages" do
   end
 end
 
-describe "Related items menu is correctly populated" do
-end
-    
-describe "Recent items menu is correctly populated" do
-end
-
-describe "Info pages display correct content" do
-end
-
-describe "Info page menus unfold correctly" do
-end
-
-describe "Info page items display correctly" do
-end
-
-describe "Info page top level items redirect to correct info pages" do
-end
-
- 

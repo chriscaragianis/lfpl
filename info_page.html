@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
-  <div class="container">
+  <div class="container"> Text here?
     <div class="row header">
       <div class="seven columns">
         HEADER LOGO
@@ -31,7 +33,7 @@
       </ul>
     </div>
     <div class="row">
-      <div class="three columns"> 
+      <div class="three columns navigations"> 
         <div id="navigations"> 
           <div id="leftcolumnnav">
             <div class="firstnav">
@@ -60,9 +62,9 @@
         </div>
       </div>
     </div>
-      <div class="six columns">
+      <div class="nine columns main">
         <h1>Borrowing Materials</h1>
-        <ul class="orangebullet">
+        <ul class="page-index eight columns">
           <li><a href="#circ">Circulation Policies</a></li>
           <li><a href="get-card.htm">Get a Card</a></li>
           <li><a href="#check">Check Your Library Account or Renew Items</a></li>
@@ -72,39 +74,57 @@
           <li><a href="#return">Return Policy</a></li>
           <li><a href="#lost">Lost Item Policy</a></li>
         </ul>
+        <br/>
         <h2><a name="circ" id="circ"></a>Circulation Policies</h2>
-        <p>A maximum of <strong>99</strong> items may be checked out per patron. Items may          be returned to any Louisville Free Public Library location. Any lost or damaged items will be the responsibility of the borrower (<em>see</em><strong><em><a href="#lost"> Lost Item Policy</a></em></strong>).</p>
-    <h3>Books</h3>
-    <ul>
-      <li>Circulation period: 21 days for general collection items, 7 days              for 7 day bestsellers.</li>
-      <li>Overdue fines: Adult general collection: $0.20 per day; $10.00 maximum per item (magazines $5.00 maximum per item);              Bestsellers: $0.25 per day; $10.00 maximum per item; Children's general collection: $0.10 per day; $5.00 maximum per item.</li>
-      <li>Reserves:  Books in the general collection may be reserved.               7 day copies of bestsellers may not be reserved.</li>
-      <li>Renewals:  Books in the general collection may be renewed three times as long as  there are no outstanding reserve requests on the item.  7 day  bestsellers may not be renewed.</li>
-    </ul>
-    <h3>DVDs/Videos</h3>
-    <ul>
-      <li>Circulation period: 7 days.</li>
-      <li>Overdue Fines: $0.25 per day;  Adult collection $10.00 maximum per item; Children's collection $5.00 maximum per item.</li>
-      <li>DVD Limits:  10 per patron</li>
-      <li>Reserves: DVDs/Videos may be reserved.</li>
-      <li>Renewals: DVDs/Videos may be renewed three times as long as there are no outstanding reserve requests on the item.</li>
-      <li>Fine for missing DVD/Video case:  $2.00.</li>
-      <li>Fine for one missing DVD/Video in a multiple DVD/Video set:  $10.00.</li>
-      <li>Fine for one missing DVD/Video in a kit:  $10.00.</li>
-      <li>Fine for DVD liner notes:  $1.00.</li>
-    </ul>
-
-    <h3>Audiobooks &amp; Music CD's</h3>
-    <ul>
-       <li>All Library locations have playaways, music CDs and Books-on-CD..</li>
-       <li>Circulation period: 21 days.</li>
-      <li>Overdue fines: $0.25 per day;  Adult collection $10.00 maximum per item; Children's collection $5.00 maximum per item.</li>
-      <li>Fine for one missing CD in a multiple Audio/Music CD set:  $10.00.</li>
-      <li>Music       CD Limits:&nbsp; 20 per patron </li>
-      <li>Audiobook limits: up to 99    </li>
-      <li>Reserves: Audiobooks may be reserved.</li>
-      <li>Renewals: Audiobooks may be renewed three times as long as there are no outstanding reserve requests on the item.</li>
-    </ul>
+        <p>
+          A maximum of <strong>99</strong> items may be checked out per patron. 
+          Items may be returned to any Louisville Free Public Library location. 
+          Any lost or damaged items will be the responsibility of the borrower
+          (<em>see</em><strong><em><a href="#lost"> Lost Item Policy</a></em></strong>).
+        </p>
+        <table class="circ-table">
+          <tr>
+            <td></td>
+            <td>Books</td>
+            <td>DVDs/Videos</td>
+            <td>Audiobooks/Music CDs</td>
+          </tr>
+          <tr>
+            <td>Circulation Period</td>
+            <td>21 days for general collection items, 7 days for 7 day bestsellers.</td>
+            <td>7 days</td>
+            <td>21 days</td>
+          </tr>
+          <tr>
+            <td>Overdue fines</td>
+            <td>Adult general collection: $0.20 per day; $10.00 maximum per item
+                 (magazines $5.00 maximum per item); Bestsellers: $0.25 per day
+                 $10.00 maximum per item; Children's general collection: $0.10
+                 per day; $5.00 maximum per item.</td>
+            <td> $0.25 per day;  Adult collection $10.00 maximum per item; 
+                 Children's collection $5.00 maximum per item.</td>
+            <td>$0.25 per day;  Adult collection $10.00 maximum per item;
+                 Children's collection $5.00 maximum per item.</td>
+          </tr>
+          <tr>
+            <td>Reserves</td>
+            <td>Books in the general collection may be reserved. 7 day copies 
+                of bestsellers may not be reserved.</td>
+            <td>May be reserved</td>
+            <td>May be reserved</td>
+          </tr>
+          <tr>
+            <td>Renewals</td>
+            <td>General Collection: 3<br/>
+                7 day bestsellers: 0</td>
+            <td>3</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td colspan=4>Items may not be renewed if there is an outstanding reserve request</td>
+          </tr>
+          <tr>
+      </table>
     <div align="center"><a href="#top">Back to Top</a></div>
     <h2><a name="check" id="check"></a>Check Your Library Account or Renew Items </h2>
     <h3>By Phone</h3>
