@@ -1,6 +1,6 @@
 body {
-  -webkit-filter: grayscale(1);
   font-family: 'Lato', sans-serif;
+  background-color: beige;
 }
 
 .navigations {
@@ -22,8 +22,6 @@ body {
 
 .main {
   padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
   background-color: beige;
 }
 
